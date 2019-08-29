@@ -13,18 +13,34 @@ variable "name"{
 
 }
 
-variable "from_port"{
+variable "ib_from_port"{
 
 }
 
-variable "to_port"{
+variable "ib_to_port"{
 
 }
 
-variable "protocol"{
+variable "ib_protocol"{
 
 }
 
-variable "cidr_blocks"{
+variable "ib_cidr_blocks"{
+ 
+}
+
+variable "ob_from_port"{
+
+}
+
+variable "ob_to_port"{
+
+}
+
+variable "ob_protocol"{
+
+}
+
+variable "ob_cidr_blocks"{
  
 }
