@@ -7,4 +7,4 @@ before_install:
 #These two steps will effectively validate our terraform and output a list of any changes to be made to our infrastructure
 script:
  - chmod 777 deploy.sh
- - ./deploy.sh "$region" "$name" "$from_port" "$to_port" "$protocol" "$cidr_blocks"
+ - ./deploy.sh "$region" "$name" "$ib_from_port" "$ib_to_port" "$ib_protocol" "$ib_cidr_block" "$ib_from_port" "$ob_to_port" "$ob_protocol" "$ob_cidr_block"
