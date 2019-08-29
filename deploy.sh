@@ -3,10 +3,10 @@
 
 echo 'Region:'$region
 echo 'security group name:'$name
-echo 'from port:'$ib_from_port
-echo 'to port:'$ib_to_port
-echo 'protocol:'$ib_protocol
-echo 'cidr:'$ib_cidr_block
+echo 'from port:'$ob_from_port
+echo 'to port:'$ob_to_port
+echo 'protocol:'$ob_protocol
+echo 'cidr:'$ob_cidr_block
 
 
 echo $AWS_ACCESS_KEY ':' $AWS_SECRET_KEY
