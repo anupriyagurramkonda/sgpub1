@@ -13,7 +13,7 @@ echo 'protocol:'$ob_protocol
 echo 'cidr:'$ob_cidr_block
 
 
-echo $AWS_ACCESS_KEY_DEV ':' $AWS_SECRET_KEY_DEV
+echo $AWS_ACCESS_KEY ':' $AWS_SECRET_KEY
 
 
 
