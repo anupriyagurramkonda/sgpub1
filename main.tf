@@ -12,13 +12,13 @@ resource "aws_security_group" "example" {
     from_port       = "${var.ib_from_port}"
     to_port         = "${var.ib_to_port}"
     protocol        = "${var.ib_protocol}"
-    cidr_block     = ["${var.ib_cidr_block}"]
+    cidr_block      = ["${var.ib_cidr_block}"]
    }
   egress {
     from_port       = "${var.ob_from_port}"
     to_port         = "${var.ob_to_port}"
     protocol        = "${var.ob_protocol}"
-    cidr_block     = ["${var.ob_cidr_block}"]
+    cidr_block      = ["${var.ob_cidr_block}"]
    }
   tags = {
     Name = "${var.name}"
