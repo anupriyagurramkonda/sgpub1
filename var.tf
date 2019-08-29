@@ -25,7 +25,7 @@ variable "ib_protocol"{
 
 }
 
-variable "ib_cidr_blocks"{
+variable "ib_cidr_block"{
  
 }
 
@@ -41,6 +41,6 @@ variable "ob_protocol"{
 
 }
 
-variable "ob_cidr_blocks"{
+variable "ob_cidr_block"{
  
 }
